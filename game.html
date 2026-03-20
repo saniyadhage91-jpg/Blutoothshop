@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Details</title>
+
+<style>
+body{
+  font-family: Arial;
+  margin:0;
+  background:#f5f5f5;
+}
+
+/* CONTAINER */
+.container{
+  display:flex;
+  padding:50px;
+  gap:50px;
+}
+
+/* LEFT IMAGE */
+.left img{
+  width:250px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* RIGHT DETAILS */
+.right{
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  width:300px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.right h2{
+  margin-top:0;
+}
+
+/* PRICE */
+.price{
+  color:#0a8f3c;
+  font-size:26px;
+  font-weight:bold;
+  margin:10px 0;
+}
+
+/* DESCRIPTION */
+.desc{
+  margin:15px 0;
+  color:#444;
+}
+
+/* LIST */
+ul{
+  padding-left:20px;
+}
+
+/* BUTTONS */
+button{
+  padding:12px 20px;
+  border:none;
+  margin-top:15px;
+  margin-right:10px;
+  cursor:pointer;
+  border-radius:5px;
+  font-size:14px;
+}
+
+/* BUY NOW */
+.buy{
+  background:#0a8f3c;
+  color:#0a8f3c;
+}
+
+/* ADD TO CART */
+.cart{
+  background:#0a8f3c;
+  color:white;
+}
+
+/* HOVER EFFECT */
+button:hover{
+  opacity:0.9;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+
+  <!-- RIGHT SIDE DETAILS -->
+  <div class="right">
+    <div class="left">
+    <img src="Gaming.jpg" alt="Headphone">
+  </div><br>
+    <h2>Gaming Headphone</h2>
+
+    <p class="price">Rs.799</p>
+
+    <p class="desc">
+      comfortable to use--!!
+    </p>
+
+    <h3>Features:</h3>
+    <ul>
+      <li>electroacoustic transducers</li>
+      <li>which convert an electrical signal to a corresponding sound</li>
+      <li>Long Battery Life – For Music That Never Stops</li>
+      <li>Comfort and Fit – Your Ears Will Thank You </li>
+    </ul>
+
+    
+    <button class="cart">Add to Cart</button>
+
+  </div>
+
+</div>
+
+</body>
+</html>
